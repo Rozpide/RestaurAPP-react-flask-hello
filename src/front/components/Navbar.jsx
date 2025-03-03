@@ -13,6 +13,16 @@ export const Navbar = () => {
 						<button className="btn btn-primary">Buscar Restaurantes</button>
 					</Link>
 				</div>
+				<div className="ml-auto">
+					<Link to="/signup">
+						<button className="btn btn-secondary">Registrarse</button>
+					</Link>
+				</div>
+				<div className="ml-auto">
+					<Link to="/login">
+						<button className="btn btn-primary">Iniciar Sesión</button>
+					</Link>
+				</div>
 
 			</div>
 		</nav>
